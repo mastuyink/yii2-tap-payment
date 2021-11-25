@@ -1,0 +1,23 @@
+{
+    "name": "mastuyink/yii2-tap-payment",
+    "description": "Yii2 Library For Tap Payment Gateway",
+    "keywords": ["yii2-tap", "yii2 tap"],
+    "type": "library",
+    "require": {
+      "yiisoft/yii2": "^2.0",
+      "tappayments/gosell": "^0.2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "mastuyink\\Yii2TapPayment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mastuyink",
+            "email": "aziest99@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
